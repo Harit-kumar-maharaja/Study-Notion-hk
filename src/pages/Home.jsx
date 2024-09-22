@@ -208,7 +208,8 @@ function Home() {
               </h2>
               
               {/* Review slider here */}
-           
+              {/* <ReviewSlider /> */}
+
         </div>
 
 

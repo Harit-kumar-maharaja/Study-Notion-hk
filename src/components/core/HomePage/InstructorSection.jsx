@@ -1,37 +1,40 @@
 import React from 'react'
 import Instructor from "../../../assets/Images/Instructor.png"
 import HightlightText from './HightlightText'
-import CTAButton from "./Button"
+import CTAButton from "../HomePage/Button"
 import { FaArrowRight } from 'react-icons/fa'
 
 const InstructorSection = () => {
   return (
-    <div className='mt-16 mb-32'>
-      <div className='flex flex-row gap-20 items-center'>
+    <div className='mt-16'>
+      <div className='flex flex-col lg:flex-row gap-20 items-center'>
 
-        <div className='w-[50%]'>
-            <img src={Instructor} alt="" className="shadow-white"/>
+        <div className='lg:w-[50%]'>
+            <img
+                src={Instructor}
+                alt=""
+                className='shadow-white shadow-[-20px_-20px_0_0]'
+            />
         </div>
 
-        <div className='w-[50%] flex flex-col gap-10'>
-
-            <div className='text-4xl font-semibold w-[50%]'>
-                Became an 
+        <div className='lg:w-[50%] flex flex-col gap-10'>
+            <div className='text-4xl font-semobold lg:w-[50%]'>
+                Become an
                 <HightlightText text={"Instructor"} />
             </div>
-            <p className='font-medium text-[16px] width-[80%] text-richblack-300'>
-                Instructors ffrom around the world teach millions of students on StudyNotion. We provides the tools and skills to teach what you love.
+
+            <p className='font-medium text-[16px] w-[80%] text-richblack-300'>
+            Instructors from around the world teach millions of students on StudyNotion. We provide the tools and skills to teach what you love.
             </p>
 
             <div className='w-fit'>
-            <CTAButton active={true} linkto={"/signup"}>
-              <div className='flex flex-row gap-2 items-center'>
-                Start Learning Tooday
-                <FaArrowRight/>
-              </div>
-            </CTAButton>
+                <CTAButton active={true} linkto={"/signup"}>
+                    <div className='flex flex-row gap-2 items-center'>
+                        Start Learning Today
+                        <FaArrowRight />
+                    </div>
+                </CTAButton>
             </div>
-
 
 
         </div>
