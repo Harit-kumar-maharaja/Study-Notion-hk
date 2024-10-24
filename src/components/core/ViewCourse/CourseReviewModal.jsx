@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { useForm } from 'react-hook-form';
 import { useSelector } from 'react-redux'
 import IconBtn from '../../common/IconBtn';
-import { createRating } from '../../../services/operations/courseDetailsAPI';
+import { createRating } from '../../../services/operations/CourseDetailsAPI';
 import ReactStars from "react-rating-stars-component";
 import { RxCross2 } from "react-icons/rx"
 const CourseReviewModal = ({setReviewModal}) => {

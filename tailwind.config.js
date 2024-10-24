@@ -129,7 +129,10 @@ module.exports = {
         maxContent: "1260px",
         maxContentTab: "650px"
       },
+      boxShadow: {
+        'custom': '0 1.5px rgba(255, 255, 255, 0.25)',
+      },
     },
   },
   plugins: [],
-};    
+};

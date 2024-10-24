@@ -1,5 +1,6 @@
 import React from 'react'
-import { UseSelector, useSelector } from 'react-redux/es/hooks/useSelector'
+import { useSelector } from 'react-redux';
+
 import { useNavigate } from 'react-router-dom'
 import { RiEditBoxLine } from "react-icons/ri"
 import { formattedDate } from "../../../utils/dateFormatter"

@@ -4,7 +4,7 @@ import { VscAdd } from "react-icons/vsc"
 import { useSelector } from "react-redux"
 import { useNavigate } from "react-router-dom"
 
-import { fetchInstructorCourses } from "../../../services/operations/courseDetailsAPI"
+import { fetchInstructorCourses } from "../../../services/operations/CourseDetailsAPI"
 import IconBtn from "../../common/IconBtn"
 import CoursesTable from "./InstructorCourses/CoursesTable"
 
